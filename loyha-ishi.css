@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteyner{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pasti{
+     width: 350px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+img{
+    width: 100px;
+}
+
+.pasti li{
+     text-align: center;
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+.pasti p{
+    font-size: 16px;
+    padding: 0 15px 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.tepa{
+    height: 70px;
+    width: 100%;
+    padding: 0 300px;
+    line-height: 45px;
+}
+.tepa ul{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.boshi{
+    width: 800px;
+}
+.boshi img{
+    width: 700px;
+    left: 900px;
+}
+
+button{
+    width: 150px;
+    border-radius: 15px;
+    padding: 8px 15px; 
+    border: none;
+    cursor: pointer;
+    margin-top: 10px auto;
+}
+
+.tepa ul:hover{
+    color: black;
+    transition: 1.5s;
+}
+
+.pasti:hover{
+    box-shadow: 0 0 15px blue;
+    background-color: blue;
+    transition: 1.3s;
+    cursor: pointer;
+}
+.pasti:hover p, .pasti:hover li{
+    color: white;
+    transition: 1.3s;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    transition: 1.5s;
+}
